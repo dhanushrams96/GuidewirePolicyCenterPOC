@@ -1,0 +1,268 @@
+2023-03-28T12:42:59.334+0530 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [-Xms1g, -Xmx4g, -Dfile.encoding=windows-1252, -Duser.country=IN, -Duser.language=en, -Duser.variant]
+2023-03-28T12:42:59.380+0530 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files integration is not available. Continuing with fallback.
+2023-03-28T12:42:59.466+0530 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=f0af5275-6d7c-4000-95db-e38f5bdbc40e,javaHome=C:\Program Files\Java\jdk1.8.0_181,daemonRegistryDir=C:\Guidewire\PolicyCenter1010\gradle\cache\daemon,pid=10296,idleTimeout=120000,priority=NORMAL,daemonOpts=-Xms1g,-Xmx4g,-Dfile.encoding=windows-1252,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+2023-03-28T12:42:59.620+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Software Loopback Interface 1
+2023-03-28T12:42:59.621+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+2023-03-28T12:42:59.622+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+2023-03-28T12:42:59.622+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1
+2023-03-28T12:42:59.624+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft 6to4 Adapter
+2023-03-28T12:42:59.625+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.625+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Kernel Debug Network Adapter
+2023-03-28T12:42:59.627+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.627+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+2023-03-28T12:42:59.628+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.629+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)
+2023-03-28T12:42:59.630+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.630+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPTP)
+2023-03-28T12:42:59.633+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.633+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft IP-HTTPS Platform Adapter
+2023-03-28T12:42:59.636+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.636+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Wi-Fi 6 AX201 160MHz
+2023-03-28T12:42:59.637+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.637+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.225.231
+2023-03-28T12:42:59.638+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /2409:4072:70d:4647:5706:4df0:a686:84e0
+2023-03-28T12:42:59.638+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /2409:4072:70d:4647:2543:6aae:dbf8:3c2e
+2023-03-28T12:42:59.638+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:47e5:5a92:8fc7:d22f%wlan0
+2023-03-28T12:42:59.639+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IKEv2)
+2023-03-28T12:42:59.640+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.640+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2
+2023-03-28T12:42:59.641+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.641+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:1b11:4974:f99c:320e%wlan1
+2023-03-28T12:42:59.641+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPPOE)
+2023-03-28T12:42:59.643+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.643+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter
+2023-03-28T12:42:59.646+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.651+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:b82b:ba7d:a20d:24bb%wlan2
+2023-03-28T12:42:59.652+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Bluetooth Device (Personal Area Network)
+2023-03-28T12:42:59.654+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.654+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:f8b8:e7a7:71b5:774b%eth3
+2023-03-28T12:42:59.654+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Teredo Tunneling Adapter
+2023-03-28T12:42:59.656+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.656+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface ASIX AX88179 USB 3.0 to Gigabit Ethernet Adapter
+2023-03-28T12:42:59.657+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.657+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (SSTP)
+2023-03-28T12:42:59.658+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.658+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (L2TP)
+2023-03-28T12:42:59.660+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.660+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)
+2023-03-28T12:42:59.661+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.661+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Wi-Fi 6 AX201 160MHz-WFP Native MAC Layer LightWeight Filter-0000
+2023-03-28T12:42:59.665+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.665+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Wi-Fi 6 AX201 160MHz-Virtual WiFi Filter Driver-0000
+2023-03-28T12:42:59.666+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.666+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Wi-Fi 6 AX201 160MHz-Native WiFi Filter Driver-0000
+2023-03-28T12:42:59.668+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.668+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Wi-Fi 6 AX201 160MHz-QoS Packet Scheduler-0000
+2023-03-28T12:42:59.670+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.670+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Wi-Fi 6 AX201 160MHz-WFP 802.3 MAC Layer LightWeight Filter-0000
+2023-03-28T12:42:59.671+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.671+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+2023-03-28T12:42:59.673+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.673+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+2023-03-28T12:42:59.674+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.674+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+2023-03-28T12:42:59.675+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.676+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+2023-03-28T12:42:59.678+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.678+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP Native MAC Layer LightWeight Filter-0000
+2023-03-28T12:42:59.680+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.680+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-Native WiFi Filter Driver-0000
+2023-03-28T12:42:59.681+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.682+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-QoS Packet Scheduler-0000
+2023-03-28T12:42:59.683+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.683+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000
+2023-03-28T12:42:59.684+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-03-28T12:42:59.686+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [536466e6-960b-48dc-bdfe-276ff00a4c73 port:50149, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]].
+2023-03-28T12:42:59.688+0530 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Tue Mar 28 12:42:59 IST 2023, with address: [536466e6-960b-48dc-bdfe-276ff00a4c73 port:50149, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+2023-03-28T12:42:59.689+0530 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [536466e6-960b-48dc-bdfe-276ff00a4c73 port:50149, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+2023-03-28T12:42:59.689+0530 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=f0af5275-6d7c-4000-95db-e38f5bdbc40e,javaHome=C:\Program Files\Java\jdk1.8.0_181,daemonRegistryDir=C:\Guidewire\PolicyCenter1010\gradle\cache\daemon,pid=10296,idleTimeout=120000,priority=NORMAL,daemonOpts=-Xms1g,-Xmx4g,-Dfile.encoding=windows-1252,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+2023-03-28T12:42:59.690+0530 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [536466e6-960b-48dc-bdfe-276ff00a4c73 port:50149, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], context: DefaultDaemonContext[uid=f0af5275-6d7c-4000-95db-e38f5bdbc40e,javaHome=C:\Program Files\Java\jdk1.8.0_181,daemonRegistryDir=C:\Guidewire\PolicyCenter1010\gradle\cache\daemon,pid=10296,idleTimeout=120000,priority=NORMAL,daemonOpts=-Xms1g,-Xmx4g,-Dfile.encoding=windows-1252,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+2023-03-28T12:42:59.726+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-03-28T12:42:59.728+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-03-28T12:42:59.737+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-03-28T12:42:59.738+0530 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+2023-03-28T12:42:59.740+0530 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+2023-03-28T12:42:59.749+0530 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+2023-03-28T12:42:59.750+0530 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+2023-03-28T12:42:59.751+0530 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-03-28T12:42:59.867+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:50150 to /127.0.0.1:50149.
+2023-03-28T12:42:59.910+0530 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: received class org.gradle.launcher.daemon.protocol.Build
+2023-03-28T12:42:59.910+0530 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 18: Received non-IO message from client: Build{id=62f66a6c-5d77-4c91-a87c-a6a8ab1e2bd6, currentDir=C:\Guidewire\PolicyCenter1010}
+2023-03-28T12:42:59.910+0530 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=62f66a6c-5d77-4c91-a87c-a6a8ab1e2bd6, currentDir=C:\Guidewire\PolicyCenter1010}.
+2023-03-28T12:42:59.910+0530 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=62f66a6c-5d77-4c91-a87c-a6a8ab1e2bd6, currentDir=C:\Guidewire\PolicyCenter1010} with connection: socket connection from /127.0.0.1:50149 to /127.0.0.1:50150.
+2023-03-28T12:42:59.913+0530 [ERROR] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=62f66a6c-5d77-4c91-a87c-a6a8ab1e2bd6, currentDir=C:\Guidewire\PolicyCenter1010}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:50149 to /127.0.0.1:50150] after 0.0 minutes of idle
+2023-03-28T12:42:59.914+0530 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [536466e6-960b-48dc-bdfe-276ff00a4c73 port:50149, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+2023-03-28T12:42:59.914+0530 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [536466e6-960b-48dc-bdfe-276ff00a4c73 port:50149, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+2023-03-28T12:42:59.914+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-03-28T12:42:59.915+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-03-28T12:42:59.917+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-03-28T12:42:59.917+0530 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2023-03-28T12:42:59.917+0530 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-03-28T12:42:59.918+0530 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=62f66a6c-5d77-4c91-a87c-a6a8ab1e2bd6, currentDir=C:\Guidewire\PolicyCenter1010}. Dispatching build started information...
+2023-03-28T12:42:59.919+0530 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+2023-03-28T12:42:59.922+0530 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {USERDOMAIN_ROAMINGPROFILE=LAPTOP-LJV63B5C, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, EFC_7352=1, DIRNAME=C:\Guidewire\PolicyCenter1010\, USERNAME=bunde, CMD_LINE_ARGS=ccTypelistGen -Dinput_dir=C:\Test\Input -Doutput_dir=C:\Test\Output -Dmap_coverages=true -Dcc_app_version=10, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, APP_HOME=C:\Guidewire\PolicyCenter1010\, DEFAULT_JVM_OPTS="-Xmx1g", PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, IntelliJ IDEA Community Edition=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, __PSLockDownPolicy=0, HOMEPATH=\Users\bunde, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 4, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, ZES_ENABLE_SYSMAN=1, _SKIP=2, LOCALAPPDATA=C:\Users\bunde\AppData\Local, USERDOMAIN=LAPTOP-LJV63B5C, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\LAPTOP-LJV63B5C, JAVA_HOME=C:\Program Files\Java\jdk1.8.0_181, PROMPT=$P$G, ANT_HOME=C:\Program Files\apache-ant-1.8.2, OneDrive=C:\Users\bunde\OneDrive, =C:=C:\Guidewire\PolicyCenter1010, APPDATA=C:\Users\bunde\AppData\Roaming, JAVA_EXE=C:\Program Files\Java\jdk1.8.0_181/bin/java.exe, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\apache-ant-1.8.2\bin;C:\Users\bunde\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\apache-ant-1.8.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;, OS=Windows_NT, COMPUTERNAME=LAPTOP-LJV63B5C, PROCESSOR_REVISION=9a04, CLASSPATH=C:\Guidewire\PolicyCenter1010\\gradle\wrapper\gradle-wrapper.jar, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, APP_BASE_NAME=gwb, SystemRoot=C:\WINDOWS, TEMP=C:\Users\bunde\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\bunde, TMP=C:\Users\bunde\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=12}
+2023-03-28T12:42:59.938+0530 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2023-03-28T12:42:59.939+0530 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 10296). The daemon log file: C:\Guidewire\PolicyCenter1010\gradle\cache\daemon\6.0.1\daemon-10296.out.log
+2023-03-28T12:42:59.940+0530 [DEBUG] [org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon] Requesting daemon stop after processing Build{id=62f66a6c-5d77-4c91-a87c-a6a8ab1e2bd6, currentDir=C:\Guidewire\PolicyCenter1010}
+2023-03-28T12:42:59.940+0530 [LIFECYCLE] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon will be stopped at the end of the build stopping after processing
+2023-03-28T12:42:59.941+0530 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Stop as soon as idle requested. The daemon is busy: true
+2023-03-28T12:42:59.941+0530 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon stop has been requested. Sleeping until state changes.
+2023-03-28T12:42:59.943+0530 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2023-03-28T12:42:59.944+0530 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=f0af5275-6d7c-4000-95db-e38f5bdbc40e,javaHome=C:\Program Files\Java\jdk1.8.0_181,daemonRegistryDir=C:\Guidewire\PolicyCenter1010\gradle\cache\daemon,pid=10296,idleTimeout=120000,priority=NORMAL,daemonOpts=-Xms1g,-Xmx4g,-Dfile.encoding=windows-1252,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+Importing POM com.guidewire.pc:pc-parent:10.1.0
+Importing parent POM com.guidewire.pc:pc-all:10.1.0
+Importing POM com.guidewire.pc:pc-all:10.1.0
+Empty bundle 'localization-codegen' for locale: en_US
+Empty bundle 'localization-codegen' for locale: en_IN
+Full code generation for module "configuration"
+Generating code for 1073 entities(s) and 743 typelist(s)
+C:\Guidewire\PolicyCenter1010\modules\configuration\config\web\pcf\line\apd\policy\APDDataFieldValue.integer.pcf (17,44): TextCell.valueType - APDDataFieldValue.integer.pcf: line 17, column 44 - TextInput and TextCell elements that could be editable only fully support a valueType of either String or some Number type.  Other types may work at runtime provided there's a coercion from that type to String, but may cease working in future versions.  In those cases, an explicit inputConversion should be used instead of relying on the runtime coercion behavior.
+C:\Guidewire\PolicyCenter1010\modules\configuration\config\web\pcf\line\apd\policy\APDDataFieldValue.scalableinteger.pcf (17,45): TextCell.valueType - APDDataFieldValue.scalableinteger.pcf: line 17, column 45 - TextInput and TextCell elements that could be editable only fully support a valueType of either String or some Number type.  Other types may work at runtime provided there's a coercion from that type to String, but may cease working in future versions.  In those cases, an explicit inputConversion should be used instead of relying on the runtime coercion behavior.
+C:\Guidewire\PolicyCenter1010\modules\configuration\config\web\pcf\tools\apd\APDRuleConditionValue.integer.pcf (16,28): TextCell.valueType - APDRuleConditionValue.integer.pcf: line 16, column 28 - TextInput and TextCell elements that could be editable only fully support a valueType of either String or some Number type.  Other types may work at runtime provided there's a coercion from that type to String, but may cease working in future versions.  In those cases, an explicit inputConversion should be used instead of relying on the runtime coercion behavior.
+C:\Guidewire\PolicyCenter1010\modules\configuration\config\web\pcf\policyfile\NotesLV.pcf (7,20): ListViewPanel - NotesLV.pcf: line 7, column 20 - ListView contains RowSet 'NoteRowSet' that has different numbers of Cells. There may be a misalignment of the columns.
+C:\Guidewire\PolicyCenter1010\modules\configuration\config\web\pcf\shared\coverage\CovTermInputSet.default.pcf (20,49): TextInput.valueType - CovTermInputSet.default.pcf: line 20, column 49 - TextInput and TextCell elements that could be editable only fully support a valueType of either String or some Number type.  Other types may work at runtime provided there's a coercion from that type to String, but may cease working in future versions.  In those cases, an explicit inputConversion should be used instead of relying on the runtime coercion behavior.
+C:\Guidewire\PolicyCenter1010\modules\configuration\config\web\pcf\tools\apd\APDAttributeRulePopup.pcf (81,67): TextInput.valueType - APDAttributeRulePopup.pcf: line 81, column 67 - TextInput and TextCell elements that could be editable only fully support a valueType of either String or some Number type.  Other types may work at runtime provided there's a coercion from that type to String, but may cease working in future versions.  In those cases, an explicit inputConversion should be used instead of relying on the runtime coercion behavior.
+C:\Guidewire\PolicyCenter1010\modules\configuration\config\web\pcf\tools\apd\APDDropdownEntryValue.default.pcf (15,28): TextCell.valueType - APDDropdownEntryValue.default.pcf: line 15, column 28 - TextInput and TextCell elements that could be editable only fully support a valueType of either String or some Number type.  Other types may work at runtime provided there's a coercion from that type to String, but may cease working in future versions.  In those cases, an explicit inputConversion should be used instead of relying on the runtime coercion behavior.
+C:\Guidewire\PolicyCenter1010\modules\configuration\config\web\pcf\admin\rating\RateTableArgumentValue.FreeForm.pcf (16,67): TextCell.valueType - RateTableArgumentValue.FreeForm.pcf: line 16, column 67 - TextInput and TextCell elements that could be editable only fully support a valueType of either String or some Number type.  Other types may work at runtime provided there's a coercion from that type to String, but may cease working in future versions.  In those cases, an explicit inputConversion should be used instead of relying on the runtime coercion behavior.
+Generated code for 1073 entities(s) and 743 typelist(s) in 11.60 seconds
+C:\Guidewire\PolicyCenter1010\modules\configuration\config\web\pcf\tools\apd\APDRuleElementPopup.pcf (109,67): TextInput.valueType - APDRuleElementPopup.pcf: line 109, column 67 - TextInput and TextCell elements that could be editable only fully support a valueType of either String or some Number type.  Other types may work at runtime provided there's a coercion from that type to String, but may cease working in future versions.  In those cases, an explicit inputConversion should be used instead of relying on the runtime coercion behavior.
+C:\Guidewire\PolicyCenter1010\modules\configuration\config\web\pcf\outboundfile\OutboundFileSearch.pcf (41,51): TextInput.valueType - OutboundFileSearch.pcf: line 41, column 51 - TextInput and TextCell elements that could be editable only fully support a valueType of either String or some Number type.  Other types may work at runtime provided there's a coercion from that type to String, but may cease working in future versions.  In those cases, an explicit inputConversion should be used instead of relying on the runtime coercion behavior.
+C:\Guidewire\PolicyCenter1010\modules\configuration\config\web\pcf\outboundfile\OutboundFileSearch.pcf (123,51): TextInput.valueType - OutboundFileSearch.pcf: line 123, column 51 - TextInput and TextCell elements that could be editable only fully support a valueType of either String or some Number type.  Other types may work at runtime provided there's a coercion from that type to String, but may cease working in future versions.  In those cases, an explicit inputConversion should be used instead of relying on the runtime coercion behavior.
+C:\Guidewire\PolicyCenter1010\modules\configuration\config\web\pcf\shared\organizationselect\OrganizationGroupTreePopup.pcf (45,49): TextInput.valueType - OrganizationGroupTreePopup.pcf: line 45, column 49 - TextInput and TextCell elements that could be editable only fully support a valueType of either String or some Number type.  Other types may work at runtime provided there's a coercion from that type to String, but may cease working in future versions.  In those cases, an explicit inputConversion should be used instead of relying on the runtime coercion behavior.
+C:\Guidewire\PolicyCenter1010\modules\configuration\config\web\pcf\note\NotesPopup.pcf (15,22): ListViewPanel - NotesPopup.pcf: line 15, column 22 - ListView contains RowSet 'NoteRowSet' that has different numbers of Cells. There may be a misalignment of the columns.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Jar file is not found, generating one
+Classpath file is not found, generating one
+Using classpath from C:\Guidewire\PolicyCenter1010\modules\configuration\build\run\803121e251065501d1c41af5495cb19fbea32bb0.txt
+====================================================
+= Running main class: com.guidewire.tools.metadata.ClaimSystemTypeGeneratorConfig
+=           JVM args: -Dgw.classpath.file=C:\Guidewire\PolicyCenter1010\modules\configuration\build\run\803121e251065501d1c41af5495cb19fbea32bb0.txt -Dgw.devroot.dir=C:\Guidewire\PolicyCenter1010 -Dgw.internal.resourcelocators.targetModule=configuration -Xmx4g -Dfile.encoding=windows-1252 -Duser.country=IN -Duser.language=en -Duser.variant -ea -cp C:\Guidewire\PolicyCenter1010\modules\configuration\build\run\803121e251065501d1c41af5495cb19fbea32bb0.jar com.guidewire.tools.metadata.ClaimSystemTypeGeneratorConfig
+=       Program args: -input_dir C:\Test\Input -output_dir C:\Test\Output -map_coverages true -cc_app_version 10
+=
+Looking for the devroot starting from C:\Guidewire\PolicyCenter1010
+Detected CONFIG environment, root: C:\Guidewire\PolicyCenter1010
+Module path: [configuration]
+--- generate claim center typelists from policy center product model ---
+
+--- Initializing ---
+
+***** Module versions follow: *****
+10.1.0, e904971cc0cab544e864b8e2c98d944a0458e96f: pc-gunit, pc, pc-pl, pc-pl-bizrules, pc-pl-personaldata, pc-pl-properties, pc-pl-inbound-file, pc-pl-outbound-file, pc-plugin, pc-typeloader, pc-pl-heatmap, pc-cmd-common, pc-solr, pc-pl-solr, pc-tools
+10.100.0, a730368782a48750aaac274bb2deaa9a75255b9d: pl-appserver-websphere, pl, plugin, util, gosu-process, gosu-servlet, modules, perfdownload-analyzer, perfdownload-collector, solr, ext-config, pl-appserver-jboss, bizrules, perfutil, personaldata, properties, inbound-file, outbound-file, heatmap, contact, pl-gunit, perfdownload-analyzer-test, perfdownload-collector-test, bizrules-gunit, personaldata-gunit, pl-tools
+2023-03-28 12:53:09,260 WARN Parameter CustomPerCharacterRegex1 must be either required, required dependent on another key, given a default value, or specified as nullokay.
+2023-03-28 12:53:09,260 WARN Parameter CustomPerCharacterRegex2 must be either required, required dependent on another key, given a default value, or specified as nullokay.
+2023-03-28 12:53:26,051 WARN The key 'FederatedTokenUri' in namespace 'plugin' not found in external property file. Have you forgotten to prefix the key with namespace in property file?
+2023-03-28 12:53:26,051 WARN The key 'FederatedClientId' in namespace 'plugin' not found in external property file. Have you forgotten to prefix the key with namespace in property file?
+2023-03-28 12:53:26,051 WARN The key 'FederatedScope' in namespace 'plugin' not found in external property file. Have you forgotten to prefix the key with namespace in property file?
+2023-03-28 12:53:26,051 WARN The key 'FederatedDataHostUrl' in namespace 'plugin' not found in external property file. Have you forgotten to prefix the key with namespace in property file?
+2023-03-28 12:53:26,051 WARN The key 'FederatedClientSecret' in namespace 'plugin' not found in external property file. Have you forgotten to prefix the key with namespace in property file?
+2023-03-28 12:53:26,066 WARN The key 'UnsavedWorkScope' in namespace 'plugin' not found in external property file. Have you forgotten to prefix the key with namespace in property file?
+2023-03-28 12:53:26,066 WARN The key 'UnsavedWorkHostUrl' in namespace 'plugin' not found in external property file. Have you forgotten to prefix the key with namespace in property file?
+2023-03-28 12:53:26,066 WARN The key 'UnsavedWorkTokenUri' in namespace 'plugin' not found in external property file. Have you forgotten to prefix the key with namespace in property file?
+2023-03-28 12:53:26,066 WARN The key 'UnsavedWorkClientId' in namespace 'plugin' not found in external property file. Have you forgotten to prefix the key with namespace in property file?
+2023-03-28 12:53:26,066 WARN The key 'UnsavedWorkCacheExpirationTime' in namespace 'plugin' not found in external property file. Have you forgotten to prefix the key with namespace in property file?
+2023-03-28 12:53:26,066 WARN The key 'UnsavedWorkClientSecret' in namespace 'plugin' not found in external property file. Have you forgotten to prefix the key with namespace in property file?
+2023-03-28 12:53:26,166 WARN The key 'ResolverClientId' in namespace 'plugin' not found in external property file. Have you forgotten to prefix the key with namespace in property file?
+2023-03-28 12:53:26,166 WARN The key 'ResolverClientSecret' in namespace 'plugin' not found in external property file. Have you forgotten to prefix the key with namespace in property file?
+2023-03-28 12:53:26,166 WARN The key 'ResolverScope' in namespace 'plugin' not found in external property file. Have you forgotten to prefix the key with namespace in property file?
+2023-03-28 12:53:26,166 WARN The key 'ResolverHostUrl' in namespace 'plugin' not found in external property file. Have you forgotten to prefix the key with namespace in property file?
+2023-03-28 12:53:26,166 WARN The key 'ResolverTokenUri' in namespace 'plugin' not found in external property file. Have you forgotten to prefix the key with namespace in property file?
+2023-03-28 12:53:26,208 WARN The key 'SpotlightPassword' in namespace 'plugin' not found in external property file. Have you forgotten to prefix the key with namespace in property file?
+2023-03-28 12:53:26,208 WARN The key 'SpotlightUsername' in namespace 'plugin' not found in external property file. Have you forgotten to prefix the key with namespace in property file?
+2023-03-28 12:53:26,382 WARN Parameter CustomPerCharacterRegex1 must be either required, required dependent on another key, given a default value, or specified as nullokay.
+2023-03-28 12:53:26,382 WARN Parameter CustomPerCharacterRegex2 must be either required, required dependent on another key, given a default value, or specified as nullokay.
+--- Initialization Finished ---
+
+2023-03-28 12:53:43,962 INFO input directory: C:\Test\Input
+2023-03-28 12:53:43,962 INFO output directory: C:\Test\Output
+2023-03-28 12:53:43,962 INFO map coverages: true
+2023-03-28 12:53:43,962 INFO major version: 10
+2023-03-28 12:53:45,371 INFO Starting Product Model pattern loading...
+2023-03-28 12:53:46,089 INFO Product Model pattern loading complete
+2023-03-28 12:53:52,263 INFO Decreased runlevel to 'GUIDEWIRE_STARTUP'
+2023-03-28 12:53:52,263 INFO Decreased runlevel to 'NONE'
+
+*******************************************
+A full compile was done before running the ccTypelistGen tool. To skip compile use "-x compile" option when running gwb
+*******************************************
+
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 10m 56s
+15 actionable tasks: 15 executed
+2023-03-28T12:53:54.147+0530 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2023-03-28T12:53:54.164+0530 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon stop has been requested. Sleeping until state changes.
+2023-03-28T12:53:54.165+0530 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=62f66a6c-5d77-4c91-a87c-a6a8ab1e2bd6, currentDir=C:\Guidewire\PolicyCenter1010}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:50149 to /127.0.0.1:50150]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@650e0811 with state StopRequested
+2023-03-28T12:53:54.165+0530 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=62f66a6c-5d77-4c91-a87c-a6a8ab1e2bd6, currentDir=C:\Guidewire\PolicyCenter1010}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:50149 to /127.0.0.1:50150]
+2023-03-28T12:53:54.165+0530 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2023-03-28T12:53:54.165+0530 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to command completed and stop requested. The daemon is running a build: false
+2023-03-28T12:53:54.166+0530 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon has stopped.
+2023-03-28T12:53:54.166+0530 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+2023-03-28T12:53:54.166+0530 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+2023-03-28T12:53:54.166+0530 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@dc17be7]
+2023-03-28T12:53:54.167+0530 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [536466e6-960b-48dc-bdfe-276ff00a4c73 port:50149, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+2023-03-28T12:53:54.167+0530 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: dispatching class org.gradle.launcher.daemon.protocol.Success
+2023-03-28T12:53:54.167+0530 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [536466e6-960b-48dc-bdfe-276ff00a4c73 port:50149, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+2023-03-28T12:53:54.168+0530 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=62f66a6c-5d77-4c91-a87c-a6a8ab1e2bd6, currentDir=C:\Guidewire\PolicyCenter1010}
+2023-03-28T12:53:54.169+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-03-28T12:53:54.170+0530 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: received class org.gradle.launcher.daemon.protocol.CloseInput
+2023-03-28T12:53:54.170+0530 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 18: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@61efb8af
+2023-03-28T12:53:54.170+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-03-28T12:53:54.170+0530 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: received class org.gradle.launcher.daemon.protocol.Finished
+2023-03-28T12:53:54.171+0530 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 18: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@399ff9ee
+2023-03-28T12:53:54.171+0530 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@399ff9ee
+2023-03-28T12:53:54.171+0530 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: stopping connection
+2023-03-28T12:53:54.172+0530 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2023-03-28T12:53:54.173+0530 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: received null
+2023-03-28T12:53:54.173+0530 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 18: Received end-of-input from client.
+2023-03-28T12:53:54.173+0530 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: stopping connection
+2023-03-28T12:53:54.174+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-03-28T12:53:54.175+0530 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Address removed from registry.
+2023-03-28T12:53:54.177+0530 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for jars (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\jars-3)
+2023-03-28T12:53:54.177+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on jars (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\jars-3).
+2023-03-28T12:53:54.179+0530 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] jars (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\jars-3) has last been fully cleaned up 265 hours ago
+2023-03-28T12:53:54.186+0530 [DEBUG] [org.gradle.cache.internal.AbstractCacheCleanup] jars (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\jars-3) cleanup deleted 0 files/directories.
+2023-03-28T12:53:54.187+0530 [INFO] [org.gradle.cache.internal.LeastRecentlyUsedCacheCleanup] jars (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\jars-3) removing files not accessed on or after Tue Mar 21 12:43:00 IST 2023.
+2023-03-28T12:53:54.188+0530 [DEBUG] [org.gradle.cache.internal.AbstractCacheCleanup] jars (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\jars-3) cleanup deleted 0 files/directories.
+2023-03-28T12:53:54.189+0530 [INFO] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] jars (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\jars-3) cleaned up in 0.009 secs.
+2023-03-28T12:53:54.195+0530 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file content cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\6.0.1\fileContent)
+2023-03-28T12:53:54.196+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file content cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\6.0.1\fileContent).
+2023-03-28T12:53:54.197+0530 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Generated Gradle JARs cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\6.0.1\generated-gradle-jars) was closed 0 times.
+2023-03-28T12:53:54.198+0530 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file hash cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\6.0.1\fileHashes)
+2023-03-28T12:53:54.199+0530 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\6.0.1\fileHashes\fileHashes.bin)
+2023-03-28T12:53:54.199+0530 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache resourceHashesCache.bin (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\6.0.1\fileHashes\resourceHashesCache.bin)
+2023-03-28T12:53:54.200+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file hash cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\6.0.1\fileHashes).
+2023-03-28T12:53:54.201+0530 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] artifact cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\modules-2) has last been fully cleaned up 265 hours ago
+2023-03-28T12:53:54.203+0530 [DEBUG] [org.gradle.cache.internal.AbstractCacheCleanup] artifact cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\modules-2) cleanup deleted 0 files/directories.
+2023-03-28T12:53:54.205+0530 [DEBUG] [org.gradle.cache.internal.AbstractCacheCleanup] artifact cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\modules-2) [subdir: C:\Guidewire\PolicyCenter1010\gradle\cache\caches\modules-2\resources-2.1] cleanup deleted 0 files/directories.
+2023-03-28T12:53:54.205+0530 [INFO] [org.gradle.cache.internal.LeastRecentlyUsedCacheCleanup] artifact cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\modules-2) [subdir: C:\Guidewire\PolicyCenter1010\gradle\cache\caches\modules-2\resources-2.1] removing files not accessed on or after Sun Feb 26 12:43:00 IST 2023.
+2023-03-28T12:53:54.206+0530 [DEBUG] [org.gradle.cache.internal.AbstractCacheCleanup] artifact cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\modules-2) [subdir: C:\Guidewire\PolicyCenter1010\gradle\cache\caches\modules-2\resources-2.1] cleanup deleted 0 files/directories.
+2023-03-28T12:53:54.207+0530 [DEBUG] [org.gradle.cache.internal.AbstractCacheCleanup] artifact cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\modules-2) [subdir: C:\Guidewire\PolicyCenter1010\gradle\cache\caches\modules-2\files-2.1] cleanup deleted 0 files/directories.
+2023-03-28T12:53:54.207+0530 [INFO] [org.gradle.cache.internal.LeastRecentlyUsedCacheCleanup] artifact cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\modules-2) [subdir: C:\Guidewire\PolicyCenter1010\gradle\cache\caches\modules-2\files-2.1] removing files not accessed on or after Sun Feb 26 12:43:00 IST 2023.
+2023-03-28T12:53:54.208+0530 [DEBUG] [org.gradle.cache.internal.AbstractCacheCleanup] artifact cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\modules-2) [subdir: C:\Guidewire\PolicyCenter1010\gradle\cache\caches\modules-2\files-2.1] cleanup deleted 0 files/directories.
+2023-03-28T12:53:54.209+0530 [DEBUG] [org.gradle.cache.internal.AbstractCacheCleanup] artifact cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\modules-2) [subdir: C:\Guidewire\PolicyCenter1010\gradle\cache\caches\modules-2\metadata-2.82] cleanup deleted 0 files/directories.
+2023-03-28T12:53:54.209+0530 [INFO] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] artifact cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\modules-2) cleaned up in 0.008 secs.
+2023-03-28T12:53:54.210+0530 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache artifact cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\modules-2) was closed 0 times.
+2023-03-28T12:53:54.210+0530 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] Artifact transforms cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\transforms-2) has last been fully cleaned up 265 hours ago
+2023-03-28T12:53:54.211+0530 [INFO] [org.gradle.cache.internal.LeastRecentlyUsedCacheCleanup] Artifact transforms cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\transforms-2) [subdir: C:\Guidewire\PolicyCenter1010\gradle\cache\caches\transforms-2\files-2.1] removing files not accessed on or after Tue Mar 21 12:43:01 IST 2023.
+2023-03-28T12:53:54.211+0530 [DEBUG] [org.gradle.cache.internal.AbstractCacheCleanup] Artifact transforms cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\transforms-2) [subdir: C:\Guidewire\PolicyCenter1010\gradle\cache\caches\transforms-2\files-2.1] cleanup deleted 0 files/directories.
+2023-03-28T12:53:54.212+0530 [INFO] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] Artifact transforms cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\transforms-2) cleaned up in 0.001 secs.
+2023-03-28T12:53:54.212+0530 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Artifact transforms cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\transforms-2) was closed 0 times.
+2023-03-28T12:53:54.213+0530 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for journal cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\journal-1)
+2023-03-28T12:53:54.213+0530 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache file-access.bin (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\journal-1\file-access.bin)
+2023-03-28T12:53:54.214+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on journal cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\journal-1).
+2023-03-28T12:53:54.215+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cache directory workerMain (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\6.0.1\workerMain).
+2023-03-28T12:53:54.216+0530 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for execution history cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\6.0.1\executionHistory)
+2023-03-28T12:53:54.216+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on execution history cache (C:\Guidewire\PolicyCenter1010\gradle\cache\caches\6.0.1\executionHistory).
+2023-03-28T12:53:54.220+0530 [DEBUG] [org.gradle.cache.internal.VersionSpecificCacheCleanupAction] Processed version-specific caches at C:\Guidewire\PolicyCenter1010\gradle\cache\caches for cleanup in 0.001 secs
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+2023-03-28T12:53:54.228+0530 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [536466e6-960b-48dc-bdfe-276ff00a4c73 port:50149, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+2023-03-28T12:53:54.233+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-03-28T12:53:54.234+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-03-28T12:53:54.236+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
