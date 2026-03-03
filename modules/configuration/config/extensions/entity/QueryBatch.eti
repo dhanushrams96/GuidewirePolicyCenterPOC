@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  entity="QueryBatch"
+  table="querybatch"
+  type="retireable">
+  <column
+    name="Date"
+    nullok="true"
+    type="datetime"/>
+  <column
+    name="NumberOfRecords"
+    nullok="true"
+    type="integer"/>
+  <column
+    name="Lob"
+    nullok="true"
+    type="shorttext"/>
+</entity>

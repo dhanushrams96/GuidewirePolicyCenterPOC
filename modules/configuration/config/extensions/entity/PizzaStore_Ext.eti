@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  entity="PizzaStore_Ext"
+  table="pizzastore_ext"
+  type="retireable">
+  <typekey
+    name="PizzaStoreList"
+    nullok="true"
+    typelist="PizzaStoreList"/>
+</entity>

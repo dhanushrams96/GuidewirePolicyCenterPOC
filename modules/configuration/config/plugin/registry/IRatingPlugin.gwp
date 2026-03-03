@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<plugin
+  interface="IRatingPlugin"
+  name="IRatingPlugin">
+  <plugin-gosu
+    gosuclass="gw.plugin.policyperiod.impl.PCRatingPlugin">
+    <param
+      name="RatingLevel"
+      value="Stage"/>
+    <param
+      name="RatingLevel"
+      value="Active"/>
+    <param
+      name="RatingLevel"
+      value="Approved"/>
+    <param
+      name="RatingLevel"
+      value="Draft"/>
+  </plugin-gosu>
+</plugin>

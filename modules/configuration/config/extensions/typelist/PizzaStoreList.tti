@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<typelist xmlns="http://guidewire.com/typelists" name="PizzaStoreList" desc="pizzastorelist">
+  <typecode
+    code="NewYorkStore"
+    name="NYStore"/>
+  <typecode
+    code="ChicagoStore"
+    name="ChicagoStore"/>
+</typelist>

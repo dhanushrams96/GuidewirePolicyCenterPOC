@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Entity
+  name="PAMinimumPremiumCost_Ext">
+  <Columns/>
+  <DisplayName>return DisplayKey.get("Web.Financials.MinimumPremiumAdjustment")</DisplayName>
+</Entity>

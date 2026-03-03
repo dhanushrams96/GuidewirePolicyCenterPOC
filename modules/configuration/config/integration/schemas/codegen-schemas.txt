@@ -1,0 +1,1 @@
+com.afc.pcinfo-1.0
