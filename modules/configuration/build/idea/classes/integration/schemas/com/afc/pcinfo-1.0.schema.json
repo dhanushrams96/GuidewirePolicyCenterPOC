@@ -1,0 +1,256 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "AccountInfoRequest" : {
+      "type" : "object",
+      "properties" : {
+        "AccountNumber" : {
+          "type" : "string",
+          "description" : "The Account number of the account"
+        }
+      }
+    },
+    "AccountInfoResponse" : {
+      "type" : "object",
+      "properties" : {
+        "AccountInfo" : {
+          "$ref" : "#/definitions/AccountInfo",
+          "description" : "The Account info"
+        },
+        "RequestReceivedTime" : {
+          "type" : "string",
+          "format" : "date-time",
+          "description" : "The time the request was received"
+        },
+        "ResponseProvidedTime" : {
+          "type" : "string",
+          "format" : "date-time",
+          "description" : "The time the response was provided"
+        },
+        "ErrorInfo" : {
+          "$ref" : "#/definitions/ErrorInfo",
+          "description" : "Errors if any"
+        }
+      }
+    },
+    "PolicyInfoRequest" : {
+      "type" : "object",
+      "properties" : {
+        "PolicyNumber" : {
+          "type" : "string",
+          "description" : "The Policy number"
+        }
+      }
+    },
+    "PolicyInfoResponse" : {
+      "type" : "object",
+      "properties" : {
+        "PolicyInfo" : {
+          "$ref" : "#/definitions/PolicyInfo",
+          "description" : "The Policy info"
+        },
+        "RequestReceivedTime" : {
+          "type" : "string",
+          "format" : "date-time",
+          "description" : "The time the request was received"
+        },
+        "ResponseProvidedTime" : {
+          "type" : "string",
+          "format" : "date-time",
+          "description" : "The time the response was provided"
+        },
+        "ErrorInfo" : {
+          "$ref" : "#/definitions/ErrorInfo",
+          "description" : "Errors if any"
+        }
+      }
+    },
+    "AgencyInfoRequest" : {
+      "type" : "object",
+      "properties" : {
+        "AgencyName" : {
+          "type" : "string",
+          "description" : "The Agency name"
+        }
+      }
+    },
+    "AgencyInfoResponse" : {
+      "type" : "object",
+      "properties" : {
+        "AgencyInfo" : {
+          "$ref" : "#/definitions/AgencyInfo",
+          "description" : "The Agency info"
+        },
+        "RequestReceivedTime" : {
+          "type" : "string",
+          "format" : "date-time",
+          "description" : "The time the request was received"
+        },
+        "ResponseProvidedTime" : {
+          "type" : "string",
+          "format" : "date-time",
+          "description" : "The time the response was provided"
+        },
+        "ErrorInfo" : {
+          "$ref" : "#/definitions/ErrorInfo",
+          "description" : "Errors if any"
+        }
+      }
+    },
+    "AccountInfo" : {
+      "type" : "object",
+      "properties" : {
+        "AccountNumber" : {
+          "type" : "string",
+          "description" : "The Account number of the account"
+        },
+        "CompanyName" : {
+          "type" : "string",
+          "description" : "The Company name of the account"
+        },
+        "FirstName" : {
+          "type" : "string",
+          "description" : "The First name of the account"
+        },
+        "LastName" : {
+          "type" : "string",
+          "description" : "The Last name of the account"
+        },
+        "AccountType" : {
+          "type" : "string",
+          "description" : "The Account type",
+          "enum" : ["Person", "Company"]
+        },
+        "PrimaryAddress" : {
+          "$ref" : "#/definitions/AddressInfo",
+          "description" : "The Address of the policy"
+        }
+      }
+    },
+    "PolicyInfo" : {
+      "type" : "object",
+      "properties" : {
+        "PolicyNumber" : {
+          "type" : "string",
+          "description" : "The Policy number"
+        },
+        "PolicyStartDate" : {
+          "type" : "string",
+          "format" : "date-time",
+          "description" : "The Start date of the Policy"
+        },
+        "PolicyEndDate" : {
+          "type" : "string",
+          "format" : "date-time",
+          "description" : "The End date of the Policy"
+        },
+        "PolicyType" : {
+          "type" : "string",
+          "description" : "The Product of the Policy"
+        },
+        "TermNumber" : {
+          "type" : "integer",
+          "description" : "The Term Number of the Policy"
+        },
+        "PrimaryAddress" : {
+          "$ref" : "#/definitions/AddressInfo",
+          "description" : "The Address of the policy"
+        }
+      }
+    },
+    "AgencyInfo" : {
+      "type" : "object",
+      "properties" : {
+        "Number" : {
+          "type" : "string",
+          "description" : "The Agency number"
+        },
+        "Name" : {
+          "type" : "string",
+          "description" : "The Name of the Agency"
+        },
+        "Status" : {
+          "type" : "string",
+          "x-gw-type": "typekey.ProducerStatus",
+          "description" : "The Status of the Agency"
+        },
+        "Address" : {
+          "$ref" : "#/definitions/AddressInfo",
+          "description" : "The Address of the Agency"
+        },
+        "ProducerCodes" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/ProducerCodeInfo"
+          },
+          "description" : "The Address of the Agency"
+        }
+      }
+    },
+    "AddressInfo" : {
+      "type" : "object",
+      "properties" : {
+        "AddressLine1" : {
+          "type" : "string",
+          "description" : "The AddressLine1 of the address"
+        },
+        "AddressLine2" : {
+          "type" : "string",
+          "description" : "The AddressLine2 of the address"
+        },
+        "City" : {
+          "type" : "string",
+          "description" : "The City of the address"
+        },
+        "County" : {
+          "type" : "string",
+          "description" : "The County of the address"
+        },
+        "State" : {
+          "type" : "string",
+          "x-gw-type": "typekey.State",
+          "description" : "The State of the address"
+        },
+        "PostalCode" : {
+          "type" : "string",
+          "description" : "The PostalCode of the address"
+        },
+        "Country" : {
+          "type" : "string",
+          "x-gw-type": "typekey.Country",
+          "description" : "The Country of the address"
+        }
+      }
+    },
+    "ProducerCodeInfo" : {
+      "type" : "object",
+      "properties" : {
+        "Name" : {
+          "type" : "string",
+          "description" : "The Name of the ProducerCode"
+        },
+        "Code" : {
+          "type" : "string",
+          "description" : "The Code of the ProducerCode"
+        },
+        "Status" : {
+          "type" : "string",
+          "x-gw-type": "typekey.ProducerStatus",
+          "description" : "The Status of the ProducerCode"
+        }
+      }
+    },
+    "ErrorInfo" : {
+      "type" : "object",
+      "properties" : {
+        "Errors" : {
+          "type" : "array",
+          "items" : {
+            "type" : "string"
+          }
+        }
+      }
+
+    }
+  }
+}

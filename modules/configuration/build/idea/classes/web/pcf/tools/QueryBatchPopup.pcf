@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <Popup
+    afterCommit="new afc.QueryBatchWorkQueue(lob,date)"
+    canEdit="true"
+    id="QueryBatchPopup"
+    startInEditMode="true"
+    title="&quot;Batch&quot;">
+    <LocationEntryPoint
+      signature="QueryBatchPopup(batchProcess : gw.api.tools.BatchProcess)"/>
+    <Variable
+      name="batchProcess"
+      type="gw.api.tools.BatchProcess"/>
+    <Variable
+      name="date"
+      type="java.util.Date"/>
+    <Variable
+      name="lob"
+      type="String"/>
+    <Screen>
+      <Toolbar>
+          <EditButtons
+            cancelVisible="false"
+            editVisible="false"
+            updateLabel="&quot;Start Batch&quot;"/>
+      </Toolbar>
+      <DetailViewPanel>
+        <InputColumn>
+          <Label
+            label="DisplayKey.get(&quot;web.Batch.QueryBatch&quot;)"/>
+        </InputColumn>
+      </DetailViewPanel>
+      <ListViewPanel>
+        <Row>
+          <RangeCell
+            desc="&quot;Line Of Business&quot;"
+            editable="true"
+            id="linebus"
+            label="&quot;Line Of Business&quot;"
+            value="lob"
+            valueRange="{&quot;WC&quot;,&quot;CA&quot;}"
+            valueType="String"/>
+        </Row>
+      </ListViewPanel>
+      <DetailViewPanel>
+        <InputColumn>
+          <DateInput
+            dateFormat="short"
+            editable="true"
+            id="date"
+            label="&quot;Cut Off Date&quot;"
+            timeFormat="long"
+            value="date"
+            visible="true"/>
+        </InputColumn>
+      </DetailViewPanel>
+      <!--<DetailViewPanel>
+        <InputColumn>
+          <DateTimeInput
+            dateEditable="true"
+            dateVisible="true"
+            editable="true"
+            id="dateTimeCutOffDate"
+            label="&quot;Cut Off Date&quot;"
+            required="true"
+            timeEditable="true"
+            timeVisible="true"
+            value="date"
+            visible="true"/>
+        </InputColumn>
+      </DetailViewPanel>-->
+    </Screen>
+  </Popup>
+</PCF>

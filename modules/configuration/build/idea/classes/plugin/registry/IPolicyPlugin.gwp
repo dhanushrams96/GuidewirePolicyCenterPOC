@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<plugin
+  name="IPolicyPlugin">
+  <plugin-gosu
+    env="local"
+    gosuclass="gw.plugin.policy.impl.PolicyPlugin"/>
+</plugin>

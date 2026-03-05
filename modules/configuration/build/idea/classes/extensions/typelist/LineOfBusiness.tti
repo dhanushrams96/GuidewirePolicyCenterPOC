@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<typelist xmlns="http://guidewire.com/typelists" name="LineOfBusiness" desc="Line Of Business">
+  <typecode
+    code="WC"
+    desc="Worker's Compensation"
+    name="WC"
+    priority="1"/>
+  <typecode
+    code="CA"
+    desc="Commercial Auto"
+    name="CA"/>
+</typelist>

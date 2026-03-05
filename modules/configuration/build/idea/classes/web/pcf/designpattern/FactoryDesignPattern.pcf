@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <Page
+    canEdit="true"
+    canVisit="true"
+    id="FactoryDesignPattern"
+    startInEditMode="true"
+    title="DisplayKey.get(&quot;Factory.Design.Pattern&quot;)">
+    <Screen
+      desc="FactoryDesignPatternPage"
+      editable="true"
+      id="FactoryDesignPatternScreen">
+      <Variable
+        initialValue="new PizzaStore_Ext()"
+        name="pizzastore"
+        type="PizzaStore_Ext"/>
+      <Toolbar>
+        <EditButtons/>
+      </Toolbar>
+      <DetailViewPanel
+        editable="true"
+        id="PizzaStoreDV">
+        <InputColumn
+          id="PizzaStoreInput">
+          <Label
+            id="PizzaStoreLabel"
+            label="DisplayKey.get(&quot;Pizza.Store.Label&quot;)"/>
+          <InputDivider/>
+          <TypeKeyInput
+            editable="true"
+            id="PizzaStore"
+            label="DisplayKey.get(&quot;Pizza.Store&quot;)"
+            value="pizzastore.PizzaStoreList"
+            valueType="typekey.PizzaStoreList"/>
+        </InputColumn>
+      </DetailViewPanel>
+    </Screen>
+  </Page>
+</PCF>

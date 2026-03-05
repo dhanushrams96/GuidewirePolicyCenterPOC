@@ -1,0 +1,94 @@
+swagger: '2.0'
+info:
+  description: "Helps retrieve PC information"
+  version: '1.0'
+  title: "PC Info"
+basePath: /api/v1/pcinfo
+x-gw-schema-import:
+  pcinfos: com.afc.pcinfo-1.0
+x-gw-apihandlers:
+  - com.afc.PCInfoHandler
+produces:
+  - application/json
+consumes:
+  - application/json
+
+paths:
+  /PCInfoAccountInfo:
+      post:
+        summary: "Gets Account Info"
+        description: "Gets Account Info"
+        operationId: getAccountInfo
+        parameters:
+          - name: body
+            in: body
+            required: true
+            schema:
+              $ref: "pcinfos#/definitions/AccountInfoRequest"
+        responses:
+          200:
+            description: "Successful response"
+            schema:
+              $ref: 'pcinfos#/definitions/AccountInfoResponse'
+          400:
+            description: "Bad request"
+          401:
+            description: "Unauthorized"
+          403:
+            description: "Forbidden"
+          404:
+            description: "Not Found"
+          500:
+            description: "Internal Server Error"
+  /PCInfoPolicyInfo:
+        post:
+          summary: "Gets Policy Info"
+          description: "Gets Policy Info"
+          operationId: getPolicyInfo
+          parameters:
+            - name: body
+              in: body
+              required: true
+              schema:
+                $ref: "pcinfos#/definitions/PolicyInfoRequest"
+          responses:
+            200:
+              description: "Successful response"
+              schema:
+                $ref: 'pcinfos#/definitions/PolicyInfoResponse'
+            400:
+              description: "Bad request"
+            401:
+              description: "Unauthorized"
+            403:
+              description: "Forbidden"
+            404:
+              description: "Not Found"
+            500:
+              description: "Internal Server Error"
+  /PCInfoAgencyInfo:
+        post:
+          summary: "Gets Agency Info"
+          description: "Gets Agency Info"
+          operationId: getAgencyInfo
+          parameters:
+            - name: body
+              in: body
+              required: true
+              schema:
+                $ref: "pcinfos#/definitions/AgencyInfoRequest"
+          responses:
+            200:
+              description: "Successful response"
+              schema:
+                $ref: 'pcinfos#/definitions/AgencyInfoResponse'
+            400:
+              description: "Bad request"
+            401:
+              description: "Unauthorized"
+            403:
+              description: "Forbidden"
+            404:
+              description: "Not Found"
+            500:
+              description: "Internal Server Error"

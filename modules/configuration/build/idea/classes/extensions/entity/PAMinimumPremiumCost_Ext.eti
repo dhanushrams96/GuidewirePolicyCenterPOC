@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<subtype
+  xmlns="http://guidewire.com/datamodel"
+  entity="PAMinimumPremiumCost_Ext"
+  desc="The cost of adjusting the minimum premium for personal auto policies"
+  supertype="PACost">
+  <implementsEntity
+    name="Cost"/>
+  <implementsInterface
+    iface="gw.lob.pa.financials.PACostMethods"
+    impl="gw.lob.pa.financials.PACostMethodsImpl"/>
+  <implementsInterface
+    iface="gw.api.domain.financials.CostAdapter"
+    impl="gw.lob.pa.financials.PACostAdapter"/>
+</subtype>
